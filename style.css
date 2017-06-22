@@ -1,0 +1,41 @@
+/* Styles go here */
+.azulAtomicBG{
+background-color:#4772b2
+}
+.azulAtomicTx{
+  color :#4772b2;
+}
+.textoInicio{
+  color: grey;
+  text-align: center;
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.left, .navbar .left { float: left; }
+.right,.navbar .right {float: right;}
+.navbar li a {
+ 
+  
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: #5b82be;
+}
+.saludo p{
+  font-size: 3em;
+  font-weight: 300;
+  text-align: center;
+}
+body {
+   font-family: 'Roboto', sans-serif;
+}
