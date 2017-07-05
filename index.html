@@ -1,29 +1,41 @@
 <!DOCTYPE html>
-<html>
-
+<html xmlns:fb="https://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/">
   <head>
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <title>Limbs - Atomic Lab</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
+    <meta charset="utf-8">
+    <script src="js/jquery-3.2.1.js"></script>
+    <link rel='shortcut icon' type='image/x-icon' href='img/favicon.ico' />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--social meta-->
+    <meta property="og:title" content="Limbs - Atomic Lab">
+    <meta property="og:type" content="Website">
+    <meta property="og:image" content="img/fondo_ini.jpg">
+    <meta property="og:site_name" content="Limbs">
+    <meta property="og:description" content="Desde Limbs, una plataforma de Atomic Lab, creemos que todos deben tener su mano impresa en 3D.">
+    <!--end social meta-->
+    <meta name="description" content="Desde Limbs, una plataforma de Atomic Lab, creemos que todos deben tener su mano impresa en 3D.">
   </head>
 
   <body>
    <div class="navbar">
     <ul class="azulAtomicBG">
-      <li class="left"><a>Limbs</a></li>
+      <li class="left"><img id="logo" src="img/limbs_white.svg"></li>
       <li class="right"><a href="#">Embajadores</a></li>
       <li class="right"><a href="#">Donar</a></li>
-      <li class="right"><a href="#">Pedir una mano</a></li>
+      <li class="right"><a href="#pedir">Pedir una mano</a></li>
       <li class="right"><a href="#inicio">Inicio</a></li>
     </ul>
   </div>
   <div id ="#inicio">
-    <div class="textoInicio">
-      <div class="saludo"><p>¡Bienvenidos a Limbs!</p></div>
-      <p> Desde Limbs, una plataforma de Atomic Lab creemos que todos deben tener su mano impresa en 3D 
-      y que el dinero no debe ser una interrupción. Por eso,<span class="azulAtomicTx"> todas son GRATUITAS.</span></p>
+    <div class="texto_inicio">
+      <div class="saludo"><h1>¡Bienvenido a Limbs!</h1></div>
+      <p>Desde Limbs, una plataforma de Atomic Lab, creemos que todos deben tener su mano impresa en 3D y que el dinero no debe ser una interrupción. Por eso,<br><span class="azulAtomicTx"> todas son GRATUITAS.</span></p>
     </div>
   </div>
+  <div id="pedir"></div>
   </body>
 
 </html>

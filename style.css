@@ -1,13 +1,14 @@
 /* Styles go here */
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+}
 .azulAtomicBG{
 background-color:#4772b2
 }
 .azulAtomicTx{
   color :#4772b2;
-}
-.textoInicio{
-  color: grey;
-  text-align: center;
 }
 .navbar ul {
     list-style-type: none;
@@ -15,27 +16,46 @@ background-color:#4772b2
     padding: 0;
     overflow: hidden;
 }
-
 .left, .navbar .left { float: left; }
 .right,.navbar .right {float: right;}
 .navbar li a {
- 
-  
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 30px 16px;
     text-decoration: none;
 }
-
 .navbar li a:hover {
     background-color: #5b82be;
 }
-.saludo p{
+#logo {
+  height: 29px;
+  position: relative;
+  top: 22px;
+  left: 20px;
+}
+/*end nav*/
+
+.texto_inicio{
+  color: grey;
+  text-align: center;
+}
+.saludo {
+  padding: 20vh 0px;
+  background: url(img/fondo_ini.jpg) center no-repeat;
+  background-size: cover;
+}
+.saludo h1{
   font-size: 3em;
   font-weight: 300;
   text-align: center;
+  color: white;
 }
-body {
-   font-family: 'Roboto', sans-serif;
+.texto_inicio p{
+  font-size: 21px;
+  max-width: 600px;
+  padding: 30px;
+  box-sizing: border-box;
+  margin: 0px auto;
+  font-weight: 300;
 }
