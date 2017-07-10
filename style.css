@@ -5,10 +5,10 @@
   font-family: 'Roboto', sans-serif;
 }
 .azulAtomicBG{
-background-color:#4772b2
+background-color:#0172c1
 }
 .azulAtomicTx{
-  color :#4772b2;
+  color :#0172c1;
 }
 .navbar ul {
     list-style-type: none;
@@ -37,7 +37,14 @@ background-color:#4772b2
 /*end nav*/
 
 .texto_inicio{
-  color: grey;
+  color: #737373;
+  text-align: center;
+
+  margin-top: 10%;
+}
+.texto_inicio h1{
+   font-size: 3em;
+  font-weight: 100;
   text-align: center;
 }
 .saludo {
@@ -46,10 +53,13 @@ background-color:#4772b2
   background-size: cover;
 }
 .saludo h1{
+  float:left;
   font-size: 3em;
-  font-weight: 300;
+  font-weight: 200;
   text-align: center;
   color: white;
+  padding-top: 25px;
+  padding-right: 10px;
 }
 .texto_inicio p{
   font-size: 21px;
@@ -57,5 +67,46 @@ background-color:#4772b2
   padding: 30px;
   box-sizing: border-box;
   margin: 0px auto;
-  font-weight: 300;
+  font-weight: 100;
+}
+/** seccion pedido**/
+#pedir{
+  margin: 10%
+}
+.cuadrado {
+    width: 100px;
+    height: auto;
+    z-index: 1;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: -50px;
+}
+.cuadrado h1 {
+    color: #fff;
+    font-size: 1em;
+    text-align:left;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.boton{
+  background: #0172c0;
+  color: #ffffff;
+  width: auto;
+  padding: 10px 50px 10px 50px;
+  text-decoration: none;
+}
+.text {
+  font-size: 35px;
+  max-width: 600px;
+  padding: 30px;
+    margin: 0px auto;
+    text-align: left;
+        margin-left: 40%;
+  /*box-sizing: border-box;*/
+  font-weight: 100;
+  color:  #737373;
+}
+.link {
+  margin-top:20px;
 }
