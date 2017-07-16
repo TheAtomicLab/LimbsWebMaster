@@ -10,6 +10,16 @@ background-color:#0172c1
 .azulAtomicTx{
   color :#0172c1;
 }
+
+body {
+  padding-top: 65px;
+}
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  top: 0px;
+}
 .navbar ul {
     list-style-type: none;
     margin: 0;
@@ -51,15 +61,17 @@ background-color:#0172c1
   padding: 20vh 0px;
   background: url(img/fondo_ini.jpg) center no-repeat;
   background-size: cover;
-}
-.saludo h1{
-  float:left;
-  font-size: 3em;
-  font-weight: 200;
   text-align: center;
-  color: white;
-  padding-top: 25px;
-  padding-right: 10px;
+}
+.saludo img {
+  height: 150px;
+  position: relative;
+  animation: aparecer_logo 1s ease;
+}
+@keyframes aparecer_logo {
+  0% {top: 30px; opacity: 0;}
+  60% {top: 30px; opacity: 0;}
+  100% {top: 0px; opacity: 1;}
 }
 .texto_inicio p{
   font-size: 21px;
