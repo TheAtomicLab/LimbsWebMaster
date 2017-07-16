@@ -12,7 +12,6 @@ background-color:#0172c1
 }
 
 body {
-  padding-top: 65px;
 }
 .navbar {
   position: fixed;
@@ -36,7 +35,7 @@ body {
     text-decoration: none;
 }
 .navbar li a:hover {
-    background-color: #5b82be;
+    background-color: #3591d2;
 }
 #logo {
   height: 29px;
@@ -46,6 +45,9 @@ body {
 }
 /*end nav*/
 
+#inicio {
+  padding-top: 65px;
+}
 .texto_inicio{
   color: #737373;
   text-align: center;
@@ -79,7 +81,7 @@ body {
   padding: 30px;
   box-sizing: border-box;
   margin: 0px auto;
-  font-weight: 100;
+  font-weight: 300;
 }
 /** seccion pedido**/
 #pedir{
