@@ -73,6 +73,19 @@ background-color:#0172c1
 #pedir{
   margin: 10%
 }
+#pedir .cont_pedir {
+  position: relative;
+  text-align: center;
+}
+#pedir div center {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+}
+.imagen_pedir {
+  display: inline-block;
+  vertical-align: middle;
+}
 .cuadrado {
     width: 100px;
     height: auto;
@@ -99,11 +112,10 @@ background-color:#0172c1
 .text {
   font-size: 35px;
   max-width: 600px;
-  padding: 30px;
-    margin: 0px auto;
-    text-align: left;
-        margin-left: 40%;
-  /*box-sizing: border-box;*/
+  padding: 30px 0px;
+  margin: 0px auto;
+  text-align: left;
+   margin-left: 40px;
   font-weight: 100;
   color:  #737373;
 }
