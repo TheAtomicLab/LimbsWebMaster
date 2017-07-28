@@ -136,3 +136,82 @@ body {
 .link {
   margin-top:20px;
 }
+
+#embajadores {
+  margin-bottom: 50px;
+	overflow: hidden;
+	width: 100%;
+	height: 450px;
+	position: relative;
+	clear: both;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+	background: transparent url(img/piezas.jpg) center center no-repeat fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/piezas.jpg',sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/piezas.jpg',sizingMethod='scale')";
+}
+
+section{
+  height: 23vh;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 50vw 50vw;
+}
+
+.half-left{
+  grid-column: 1;
+}
+
+.half-right{
+  grid-column: 2;
+}
+
+.texto_embajadores  {
+    position: relative;
+    top: 4vh;
+    padding-left:3vh;
+    text-align: left;
+    font-style: normal;
+    font-size: 1.2em;
+    letter-spacing: .5px;
+    color: #fafafa;
+    font-weight: 500;
+}
+
+.body-embajadores p {
+    color: #fafafa;
+    text-align: center;
+    font-size: 21px;
+    max-width: 600px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 0px auto;
+    font-weight: 300;
+}
+
+.footer-embajadores{
+  text-align: center;
+}
+
+.boton-embajadores {
+    background: #ffffff ;
+    color: #0172c0;
+    width: auto;
+    padding: 10px 50px 10px 50px;
+    text-decoration: none;
+}
+
+.embajadores-logo{
+  position: relative;
+  float:right;
+  padding-right: 3vh;
+  height: 5em;
+  padding-top: 1em;
+}
