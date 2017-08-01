@@ -176,7 +176,7 @@ section{
 .texto_embajadores  {
     position: relative;
     top: 4vh;
-    padding-left:3vh;
+    padding-left:1vh;
     text-align: left;
     font-style: normal;
     font-size: 1.2em;
@@ -211,7 +211,7 @@ section{
 .embajadores-logo{
   position: relative;
   float:right;
-  padding-right: 3vh;
+  padding-right: 1vh;
   height: 5em;
-  padding-top: 1em;
+  padding-top: 1.2em;
 }
