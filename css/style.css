@@ -61,7 +61,7 @@ body {
 }
 .saludo {
   padding: 20vh 0px;
-  background: url(img/fondo_ini.jpg) center no-repeat;
+  background: url(../img/fondo_ini.jpg) center no-repeat;
   background-size: cover;
   text-align: center;
 }
@@ -147,22 +147,19 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-	background: transparent url(img/piezas.jpg) center center no-repeat fixed;
+	background: transparent url(../img/piezas.jpg) center center no-repeat fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/piezas.jpg',sizingMethod='scale');
-	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/piezas.jpg',sizingMethod='scale')";
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/piezas.jpg',sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/piezas.jpg',sizingMethod='scale')";
+  padding-bottom: 30px;
 }
 
-section{
-  height: 23vh;
-}
-
-.container{
+#embajadores .container {
   display: grid;
-  grid-template-columns: 50vw 50vw;
+  padding-bottom: 15px;
 }
 
 .half-left{
@@ -196,7 +193,7 @@ section{
     font-weight: 300;
 }
 
-.footer-embajadores{
+.footer-embajadores {
   text-align: center;
 }
 
@@ -206,9 +203,11 @@ section{
     width: auto;
     padding: 10px 50px 10px 50px;
     text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
 }
 
-.embajadores-logo{
+.embajadores-logo {
   position: relative;
   float:right;
   padding-right: 1vh;
@@ -250,7 +249,7 @@ section{
   display: flex;
   flex-direction: column;
   justify-content: center;
-	background: transparent url(img/fondo_manoton.jpg) center center no-repeat fixed;
+	background: transparent url(../img/fondo_manoton.jpg) center center no-repeat fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -312,7 +311,7 @@ section{
 }
 
 .footer-distributed h3 span{
-	color:  #5383d3;
+	color:  #0172c1;
 }
 
 /* Footer links */
@@ -376,7 +375,7 @@ section{
 }
 
 .footer-distributed .footer-center p a{
-	color:  #5383d3;
+	color:  #0172c1;
 	text-decoration: none;;
 }
 
